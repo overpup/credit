@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class creditproject {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("dohod");
+        int income = sc.nextInt();
+        System.out.println("rashodi");
+        int expenses = sc.nextInt();
+        System.out.println("summa credita");
+        int sumcred = sc.nextInt();
+        System.out.println("na scolco");
+        int date = sc.nextInt();
+        int income1 = sumcred/date;
+        income =100;
+        if (income < income1){
+            System.out.println("Кредит одобрен");
+        }else{
+            System.out.println("ne odobren");
+        }
+    }
+}
